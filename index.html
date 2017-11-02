@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>VIT Share</title>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/jquery.dropotron.min.js"></script>
+		<script src="js/skel.min.js"></script>
+		<script src="js/skel-layers.min.js"></script>
+		<script src="js/init.js"></script>
+		
+		
+	</head>
+	<body class="homepage">
+
+		
+			<div class="wrapper style1">
+			
+			
+				<div id="header">
+					<div class="container">
+							
+						
+							<h1><a href="#" id="logo">VIT SHARE</a></h1>
+						
+						
+							<nav id="nav">
+								<ul>
+									<li class="active"><a href="index.html">Home</a></li>
+									<li><a href="news.html">VIT News</a></li>
+									<li><a href="events.html">VIT Events</a></li>
+									<li><a href="http://vit.ac.in/about">About VIT</a></li>
+								</ul>
+							</nav>
+	
+					</div>
+				</div>
+				
+			
+				<div id="banner">
+					<section class="container">
+						<h2>VIT Share</h2>
+						<p>A better way to connect with your collegemates.</p>
+					</section>
+				</div>
+
+			</div>
+		
+		
+			<div class="wrapper style2">
+				<section class="container">
+					<div class="row double">
+						<div class="6u">
+							<header class="major">
+								<form action="signup.php" method="post" name="signup" id="signup" onsubmit="validation();">
+									<fieldset>
+										<legend> Sign Up </legend>
+										<h2 align="Center"> <u>SIGN UP</u> </h2>
+										<label for="first_name">
+										First Name:  </label><input type="text" name="first_name" id="first_name" placeholder="Enter" required pattern="[A-Za-z][^0-9]+"></input><br><br>
+										<label for="last_name">
+										Last Name: </label><input type="text" name="last_name" id="last_name" placeholder="Enter"></input><br><br>
+										<label for="email">
+										Email: </label><input type="email" name="email" id="email" placeholder="Enter" required><br><br>
+										<label for="username">
+										Username: </label><input type="text" name="username" id="username" placeholder="Enter" required></input><br><br>
+										<label for="password">
+										Password: </label><input type="password" name="password" id="password" required pattern=".{8,16}"></input><br><br>
+										Gender: 
+										<input type="radio" name="sex" id="msex">male</input>
+										<input type="radio" name="sex" id="fsex">female</input>
+										<br><br>
+										Birth-Date: <input type="date" name="birthdate" id="birthdate" required></input>
+										<br><br>
+										Age: <select name="age">
+											<option value="-1" selected> Select Age</option>
+											<option value="1">17</option>
+											<option value="2">18</option>
+											<option value="3">19</option>
+											<option value="4">20</option>
+											<option value="5">21</option>
+										</select><br><br>
+										<input type="checkbox" required> I agree to the <a href="readme.html">terms and conditions </a></input> <br><br>
+										<input type="submit" required></input><br><br>
+										<p><font size="1" color="black">* Format for Email: xyz@abc.pqr.<br>
+										*All fields highlighted 'blue' are necessary.<br>
+										*Enter a strong password.<br>
+										</p></font>
+									</fieldset>
+								</form>
+							</header>
+						</div>
+						<div class="6u">
+							<form action="login.php" method="post" name="login" onsubmit="">
+								<fieldset color="black">
+									<legend> Log In </legend>
+									<h2 align="center"><u>LOGIN</u></h2>
+									<br><br>
+									Username: <input type="text" name="username" required></input><br><br>
+									Password: <input type="password" name="password" required></input><br><br>
+									<input type="submit" name="submit" required></input><br><br>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+				</section>
+			</div>
+			<p>prototypes<br>
+			<a href="collegepage.html">college-page</a><br>
+			<a href="hostelpage.html">hostel-page</a><br>
+			</p>>
+
+		
+			
+		
+		
+			<div class="wrapper style5">
+				<section id="team" class="container">
+					<header class="major">
+						<h2>CREATORS</h2>
+						<span class="byline">Info about the creators and mentor.</span>
+					</header>
+					<div class="row">
+						<div class="3u">
+							<a href="#" class="image"><img src="images/aaditya.jpg" alt="" height="100" width="100"></a>
+							<h3>Aaditya Vaidya<br>15BCB0032</h3>
+							<p>Back-End</p>
+						</div>
+						<div class="3u">
+							<a href="#" class="image"><img src="images/dev.jpg" alt="" height="100" width="100"></a>
+							<h3>Dev Kumar<br>15BCB0060</h3>
+							<p>Front-End</p>
+						</div>
+						<div class="3u">
+							<a href="#" class="image"><img src="images/yash.jpg" alt="" height="100" width="100"></a>
+							<h3>Yash Shah<br>15BCB0123</h3>
+							<p>DataBase</p>
+						</div>
+						<div class="3u">
+							<a href="#" class="image"><img src="images/priyag.png" alt="" height="100" width="100"></a>
+							<h3>Prof. Priya G</h3>
+							<p>Mentor</p>
+						</div>
+					</div>
+				</section>
+			</div>
+
+	
+		<div id="footer">
+			<section class="container">
+				<header class="major">
+					<h2>Connect with us</h2>
+					<span class="byline">Send your queries.</span>
+				</header>
+				<ul class="icons">
+					<li class="active"><a href="#" class="fa fa-facebook"><span>Facebook</span></a></li>
+					<li><a href="#" class="fa fa-google-plus"><span>Google+</span></a></li>
+				</ul>
+				<hr />
+			</section>		
+		</div>
+
+	</body>
+</html>
